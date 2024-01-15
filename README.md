@@ -13,14 +13,36 @@ var cors = require('cors')
 
 app.use(cors());
 
-# React + Vite
+# To run the backend go to specic day directory
 
-To run the backend go to specic day directory
 then 
 => npm install
 => npm run start
 
+
+
+
+# Day-3   Data modelling for backend with mongoose
+moon modler tool for mongoDb and noSql for visulize of mongodDb & mongoose ODM Sschema Designs
+
+# moon modeler:- https://www.datensen.com/data-modeling/moon-modeler-for-databases.html(create schema design(diagram) and gives us the model schema script)
+
+# https://www.eraser.io/:- this is also gives us the facility to create the data modeling (shema desing):- we will create the schema design in it and in returns this will gives us the source code of the model
+
+# code sandbox(to run code without installing the software like replit.com):- https://stackblitz.com/
+
+# Work with mongoose
+# These three steps wil be common for all the models in mongooose
+const mongoose = require('mongoose');
+
+const userSchema =  new mongoose.Shema({})
+
+export const User = mongoose.model("User", userSchema);
+
+#when model goes in mongodb then its model name is changes to the plur like user to users todo to todos photo to photos
+
  # to run the frotend project
+ # React + Vite
 => npm install
 => npm run dev
 
