@@ -41,6 +41,12 @@ export const User = mongoose.model("User", userSchema);
 
 #when model goes in mongodb then its model name is changes to the plur like user to users todo to todos photo to photos
 
+
+# Day- 4 = How to setup the professional project
+to make the model or schema strucute you can use below link
+https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
+in above link we have added the youtube data model flow
+
  # to run the frotend project
  # React + Vite
 => npm install
